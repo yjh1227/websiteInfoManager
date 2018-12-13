@@ -3,7 +3,7 @@
 
 <body id="admin_body">
     <div>
-        <div class="web_logo">YuJunhuiBlog管理系统</div>
+        <div class="web_logo">YjhWebsite管理系统</div>
         欢迎你：管理员&nbsp;&nbsp;
         <a href="${pageContext.request.contextPath}/admin/home" target="_self">我的主页</a>&nbsp;&nbsp;
         <a href="${pageContext.request.contextPath}/admin/LogoutController" target="_self">退出</a>  

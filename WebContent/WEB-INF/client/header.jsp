@@ -3,7 +3,7 @@
 
 <body id="client_body">
 	<div>
-	    <div class="web_logo">YuJunhuiBlog</div>
+	    <div class="web_logo">YjhWebsite</div>
 		
 		<c:choose>
 			<c:when test="${not empty sessionScope.self }">
