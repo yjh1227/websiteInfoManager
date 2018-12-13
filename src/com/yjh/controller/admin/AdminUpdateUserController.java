@@ -34,6 +34,8 @@ public class AdminUpdateUserController extends HttpServlet {
 			defaultResetPass = resetPass;
 		}
 		
+		//根据delete的值来更改是否确定开启还是禁用删除用户功能
+		//false开启，true禁用
 		String delete = config.getInitParameter("deleteOn");
 		if("false".equals(delete)) {
 			deleteOn = false;
